@@ -1808,7 +1808,7 @@ header h3 {
 }
 
 .logo {
-  height: 100px;
+  height: 80px;
   width: auto;
   float: left;
   margin-top: 20px;
@@ -1821,6 +1821,8 @@ header h3 {
   float: left;
   margin: 5px 0;
 }
+
+.row.header { max-width: 90%; }
 
 /* Main navi */
 
@@ -1840,7 +1842,7 @@ header h3 {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 90%;
+  font-size: 16px;
   border-bottom: 2px solid transparent;
   -webkit-transition: border-bottom 0.2s;
   transition: border-bottom 0.2s;
@@ -2121,6 +2123,55 @@ figure {
   }
 }
 
+@media only screen and (max-width: 870px) {
+
+ .main-nav {
+       float: none;
+       position: absolute;
+       z-index: 8888;
+       width: 100%;
+       /*height: 100vh;*/
+       margin: 0;
+       margin-left: -4%;
+       background-color: rgba(0, 0, 0, 0.9);
+       text-align: center;
+       padding: 10px 0;
+    }
+
+  .main-nav li {
+     display: block;
+     margin-left: 0;
+     font-size: 110%;
+  }
+
+  .main-nav li a:link,
+  .main-nav li a:visited {
+     display: block;
+     border: 0;
+     padding: 10px 0;
+     font-size: 100%;
+  }
+
+  .sticky .main-nav { margin-top: 0; }
+
+  .sticky .main-nav li a:link,
+  .sticky .main-nav li a:visited {
+     padding: 10px 0;
+     color: #fff;
+  }
+
+  .sticky .mobile-nav-icon { margin-top: 10px; }
+  .sticky .mobile-nav-icon i { color: #555; }
+  .sticky .mobile-nav-icon i.ion-close-round { color: #fff; }
+
+  .main-nav { display: none; }
+  .mobile-nav-icon {
+     display: inline-block;
+     position: relative;
+     z-index: 9999;
+    }
+}
+
 
 
 /* Small phones to small tablets: from 481px to 767px */
@@ -2162,53 +2213,6 @@ figure {
     }
 
     #publications .thumbnail{text-align: left;}
-
-
-    .main-nav { display: none; }
-    .mobile-nav-icon {
-       display: inline-block;
-       position: relative;
-       z-index: 9999;
-    }
-
-    .main-nav {
-       float: none;
-       position: absolute;
-       z-index: 8888;
-       width: 100%;
-       /*height: 100vh;*/
-       margin: 0;
-       margin-left: -4%;
-       background-color: rgba(0, 0, 0, 0.9);
-       text-align: center;
-       padding: 10px 0;
-    }
-
-    .main-nav li {
-       display: block;
-       margin-left: 0;
-       font-size: 110%;
-    }
-
-    .main-nav li a:link,
-    .main-nav li a:visited {
-       display: block;
-       border: 0;
-       padding: 10px 0;
-       font-size: 100%;
-    }
-
-    .sticky .main-nav { margin-top: 0; }
-
-    .sticky .main-nav li a:link,
-    .sticky .main-nav li a:visited {
-       padding: 10px 0;
-       color: #fff;
-    }
-
-    .sticky .mobile-nav-icon { margin-top: 10px; }
-    .sticky .mobile-nav-icon i { color: #555; }
-    .sticky .mobile-nav-icon i.ion-close-round { color: #fff; }
 
     h1 {
         font-size: 180%;
