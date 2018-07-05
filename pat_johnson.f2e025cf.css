@@ -725,7 +725,9 @@
 .ion-ios-arrow-right:before,
 .ion-close-round:before,
 .ion-ios-arrow-down:before,
-.ion-navicon-round:before {
+.ion-navicon-round:before,
+.ion-social-github:before,
+.ion-android-mail:before {
   display: inline-block;
   font-family: "Ionicons";
   speak: none;
@@ -747,6 +749,8 @@
 .ion-close-round:before{content:"\f129"}
 .ion-ios-arrow-down:before{content:"\f3d0"}
 .ion-navicon-round:before{content:"\f20d"}
+.ion-social-github:before{content:"\f233"}
+.ion-android-mail:before{content:"\f2eb"}
 /* Magnific Popup CSS */
 .mfp-bg {
   top: 0;
@@ -2069,6 +2073,55 @@ figure {
   margin-top: -7px;
   padding: 7px 0;
 }
+
+/* ----------------------------------------------- */
+
+/* Footer */
+
+/* ----------------------------------------------- */
+
+footer {
+    background-color: rgb(56, 78, 100);
+    padding: 25px;
+    font-size: 90%;
+    color: #888;
+}
+
+.row.header { max-width: 90%; }
+
+.footer-nav {
+  list-style: none;
+  float: right;
+  /*color: var(--main-accent-1);*/
+}
+
+.social-links {
+  list-style: none;
+  float: left;
+  font-size: 175% !important;
+
+}
+
+.social-links i {
+  color: #888;
+}
+
+.social-links a {border: none;}
+
+.footer-nav li, .social-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.ion-social-github,
+.ion-android-mail {
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+
+.ion-social-github:hover{ color: #4078c0;}
+.ion-android-mail:hover{ color: var(--main-accent-1); }
 /* Big tablet to 1200px (widths smaller taht the 1140px row) */
 @media only screen and (max-width: 1200px) {
     .hero-text-box {

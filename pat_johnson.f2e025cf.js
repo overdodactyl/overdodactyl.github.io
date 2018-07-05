@@ -128,7 +128,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],54:[function(require,module,exports) {
+},{}],51:[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -165,55 +165,55 @@ module.exports = reloadCSS;
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":54}],44:[function(require,module,exports) {
+},{"_css_loader":51}],44:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":54}],47:[function(require,module,exports) {
+},{"_css_loader":51}],45:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"./../fonts/ionicons.eot":58,"./../fonts/ionicons.woff":59,"./../fonts/ionicons.ttf":60,"./../fonts/ionicons.svg":61,"_css_loader":54}],52:[function(require,module,exports) {
+},{"./../fonts/ionicons.eot":58,"./../fonts/ionicons.woff":59,"./../fonts/ionicons.ttf":60,"./../fonts/ionicons.svg":61,"_css_loader":51}],57:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":54}],45:[function(require,module,exports) {
+},{"_css_loader":51}],47:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":54}],46:[function(require,module,exports) {
+},{"_css_loader":51}],46:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"./../fonts/open-sans/Regular/OpenSans-Regular.eot":62,"./../fonts/open-sans/Regular/OpenSans-Regular.woff2":63,"./../fonts/open-sans/Regular/OpenSans-Regular.woff":64,"./../fonts/open-sans/Regular/OpenSans-Regular.ttf":65,"./../fonts/open-sans/Regular/OpenSans-Regular.svg":66,"./../fonts/open-sans/Italic/OpenSans-Italic.eot":67,"./../fonts/open-sans/Italic/OpenSans-Italic.woff2":68,"./../fonts/open-sans/Italic/OpenSans-Italic.woff":69,"./../fonts/open-sans/Italic/OpenSans-Italic.ttf":70,"./../fonts/open-sans/Italic/OpenSans-Italic.svg":71,"./../fonts/open-sans/Semibold/OpenSans-Semibold.eot":72,"./../fonts/open-sans/Semibold/OpenSans-Semibold.woff2":73,"./../fonts/open-sans/Semibold/OpenSans-Semibold.woff":74,"./../fonts/open-sans/Semibold/OpenSans-Semibold.ttf":75,"./../fonts/open-sans/Semibold/OpenSans-Semibold.svg":76,"_css_loader":54}],49:[function(require,module,exports) {
+},{"./../fonts/open-sans/Regular/OpenSans-Regular.eot":62,"./../fonts/open-sans/Regular/OpenSans-Regular.woff2":63,"./../fonts/open-sans/Regular/OpenSans-Regular.woff":64,"./../fonts/open-sans/Regular/OpenSans-Regular.ttf":68,"./../fonts/open-sans/Regular/OpenSans-Regular.svg":65,"./../fonts/open-sans/Italic/OpenSans-Italic.eot":66,"./../fonts/open-sans/Italic/OpenSans-Italic.woff2":67,"./../fonts/open-sans/Italic/OpenSans-Italic.woff":69,"./../fonts/open-sans/Italic/OpenSans-Italic.ttf":73,"./../fonts/open-sans/Italic/OpenSans-Italic.svg":70,"./../fonts/open-sans/Semibold/OpenSans-Semibold.eot":71,"./../fonts/open-sans/Semibold/OpenSans-Semibold.woff2":72,"./../fonts/open-sans/Semibold/OpenSans-Semibold.woff":76,"./../fonts/open-sans/Semibold/OpenSans-Semibold.ttf":74,"./../fonts/open-sans/Semibold/OpenSans-Semibold.svg":75,"_css_loader":51}],48:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"./img/mCherry-min.jpg":77,"_css_loader":54}],48:[function(require,module,exports) {
+},{"./img/mCherry-min.jpg":77,"_css_loader":51}],49:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":54}],2:[function(require,module,exports) {
+},{"_css_loader":51}],2:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"./vendors/css/animate.css":43,"./vendors/css/grid.css":44,"./vendors/css/ionicons.css":47,"./node_modules/magnific-popup/dist/magnific-popup.css":52,"./vendors/css/normalize.css":45,"./vendors/css/open-sans.css":46,"./resources/css/style":49,"./resources/css/queries":48,"_css_loader":54}],206:[function(require,module,exports) {
+},{"./vendors/css/animate.css":43,"./vendors/css/grid.css":44,"./vendors/css/ionicons.css":45,"./node_modules/magnific-popup/dist/magnific-popup.css":57,"./vendors/css/normalize.css":47,"./vendors/css/open-sans.css":46,"./resources/css/style":48,"./resources/css/queries":49,"_css_loader":51}],92:[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -242,7 +242,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '60688' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '59910' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -383,7 +383,7 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}],212:[function(require,module,exports) {
+},{}],94:[function(require,module,exports) {
 var getBundleURL = require('./bundle-url').getBundleURL;
 
 function loadBundlesLazy(bundles) {
@@ -465,5 +465,5 @@ LazyPromise.prototype.catch = function (onError) {
   return this.promise.catch(onError);
 };
 },{"./bundle-url":78}],0:[function(require,module,exports) {
-var b=require(212);b.load([["ionicons.fd84f5eb.eot",58],["ionicons.b38bac20.woff",59],["ionicons.e5fc5cca.ttf",60],["ionicons.46851ecf.svg",61],["OpenSans-Regular.51c48a6f.eot",62],["OpenSans-Regular.7f301bac.woff2",63],["OpenSans-Regular.70345714.woff",64],["OpenSans-Regular.b1f28277.ttf",65],["OpenSans-Regular.d839814a.svg",66],["OpenSans-Italic.570eecc9.eot",67],["OpenSans-Italic.6fcc0def.woff2",68],["OpenSans-Italic.78930918.woff",69],["OpenSans-Italic.152d0115.ttf",70],["OpenSans-Italic.ec553f7f.svg",71],["OpenSans-Semibold.4abbdd15.eot",72],["OpenSans-Semibold.6923e3ff.woff2",73],["OpenSans-Semibold.949abbaf.woff",74],["OpenSans-Semibold.4578e8d8.ttf",75],["OpenSans-Semibold.b71b5120.svg",76],["mCherry-min.781a4153.jpg",77]]);
-},{}]},{},[206,0], null)
+var b=require(94);b.load([["ionicons.fd84f5eb.eot",58],["ionicons.b38bac20.woff",59],["ionicons.e5fc5cca.ttf",60],["ionicons.46851ecf.svg",61],["OpenSans-Regular.51c48a6f.eot",62],["OpenSans-Regular.7f301bac.woff2",63],["OpenSans-Regular.70345714.woff",64],["OpenSans-Regular.b1f28277.ttf",68],["OpenSans-Regular.d839814a.svg",65],["OpenSans-Italic.570eecc9.eot",66],["OpenSans-Italic.6fcc0def.woff2",67],["OpenSans-Italic.78930918.woff",69],["OpenSans-Italic.152d0115.ttf",73],["OpenSans-Italic.ec553f7f.svg",70],["OpenSans-Semibold.4abbdd15.eot",71],["OpenSans-Semibold.6923e3ff.woff2",72],["OpenSans-Semibold.949abbaf.woff",76],["OpenSans-Semibold.4578e8d8.ttf",74],["OpenSans-Semibold.b71b5120.svg",75],["mCherry-min.781a4153.jpg",77]]);
+},{}]},{},[92,0], null)
