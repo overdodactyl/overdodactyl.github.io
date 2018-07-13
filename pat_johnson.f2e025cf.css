@@ -2148,7 +2148,7 @@ footer {
         margin-left: 10%;
     }
 
-    .icon-small {
+    .icon-small:not(.inline) {
         width: 17px;
         margin-right: 5px;
     }
