@@ -12017,7 +12017,7 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
 }
 ));
 
-},{}],52:[function(require,module,exports) {
+},{}],53:[function(require,module,exports) {
 var define;
 /*! Magnific Popup - v1.1.0 - 2016-02-20
 * http://dimsemenov.com/plugins/magnific-popup/
@@ -14331,14 +14331,14 @@ $(document).ready(function () {
     });
   }
 });
-},{}],4:[function(require,module,exports) {
+},{}],2:[function(require,module,exports) {
 window.jQuery = window.$ = require("jquery");
 require('waypoints/lib/jquery.waypoints');
 require('lazysizes');
 require('magnific-popup');
 require('html5shiv');
 require('./resources/js/script');
-},{"jquery":55,"waypoints/lib/jquery.waypoints":57,"lazysizes":54,"magnific-popup":52,"html5shiv":56,"./resources/js/script":50}],80:[function(require,module,exports) {
+},{"jquery":55,"waypoints/lib/jquery.waypoints":57,"lazysizes":54,"magnific-popup":53,"html5shiv":56,"./resources/js/script":50}],80:[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -14367,7 +14367,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '53070' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '55845' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -14508,5 +14508,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},[80,4], null)
+},{}]},{},[80,2], null)
 //# sourceMappingURL=/pat_johnson.d1827195.map
