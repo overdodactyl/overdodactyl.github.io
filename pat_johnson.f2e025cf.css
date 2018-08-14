@@ -1999,7 +1999,7 @@ span.location {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: #008cba;
 }
 
 .image_container:hover .overlay,
@@ -2015,13 +2015,13 @@ span.location {
 .text {
   color: white !important;
   font-size: 20px;
-  width: 80%;
+  width: 90%;
   position: absolute;
   top: 50%;
-  left: 60%;
-  -webkit-transform: translate(-50%, -65%);
-  -ms-transform: translate(-50%, -65%);
-  transform: translate(-50%, -65%);
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 /* ----------------------------------------------- */
