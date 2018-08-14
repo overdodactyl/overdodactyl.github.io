@@ -727,7 +727,7 @@
 .ion-ios-arrow-down:before,
 .ion-navicon-round:before,
 .ion-social-github:before,
-.ion-android-mail:before {
+.ion-android-mail:before{
   display: inline-block;
   font-family: "Ionicons";
   speak: none;
@@ -750,8 +750,7 @@
 .ion-ios-arrow-down:before{content:"\f3d0"}
 .ion-navicon-round:before{content:"\f20d"}
 .ion-social-github:before{content:"\f233"}
-.ion-android-mail:before{content:"\f2eb"}
-/* Magnific Popup CSS */
+.ion-android-mail:before{content:"\f2eb"}/* Magnific Popup CSS */
 .mfp-bg {
   top: 0;
   left: 0;
@@ -1963,6 +1962,62 @@ span.location {
   text-align: left;
 }
 
+.image_container {
+  position: relative;
+}
+
+.top_right {
+  position: absolute;
+  font-size: 25px;
+  right: 10px;
+  top: 0px;
+}
+
+.top_right a {
+  color: white;
+  opacity: 0.7;
+  border: 0;
+}
+
+.top_right a:hover {
+  opacity: 1;
+}
+
+.website_img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.image_container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white !important;
+  font-size: 20px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  -webkit-transform: translate(-50%, -65%);
+  -ms-transform: translate(-50%, -65%);
+  transform: translate(-50%, -65%);
+}
+
 /* ----------------------------------------------- */
 
 /* Publications and Presentations */
@@ -2300,6 +2355,12 @@ footer {
        text-align: center;
     }
 
+    #Websites .row .span-1-of-3 {
+      width: 31%;
+      margin-right: 10px;
+      margin-bottom: 10px;
+    } 
+
 
 }
 
@@ -2309,6 +2370,10 @@ footer {
 @media only screen and (max-width: 480px) {
     section { padding: 25px 0; }
     #profile > div:nth-child(2) > div:nth-child(2) { width: 35%}
+    #Websites .row .span-1-of-3 {
+      width: 100%;
+      margin-bottom: 15px;
+    } 
 
 
 }
