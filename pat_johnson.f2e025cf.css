@@ -2002,14 +2002,20 @@ span.location {
   background-color: #008CBA;
 }
 
-.image_container:hover .overlay {
+.image_container:hover .overlay,
+.image_container.hover_effect .overlay {
   opacity: 1;
+}
+
+.hover {
+-webkit-user-select: none;
+-webkit-touch-callout: none;        
 }
 
 .text {
   color: white !important;
   font-size: 20px;
-  width: 100%;
+  width: 80%;
   position: absolute;
   top: 50%;
   left: 60%;
@@ -2360,6 +2366,14 @@ footer {
       margin-right: 10px;
       margin-bottom: 10px;
     } 
+
+    footer .row .span-1-of-2 {
+      text-align: center;
+    }
+
+    footer .row .span-1-of-2 ul {
+      float: none;
+    }
 
 
 }
