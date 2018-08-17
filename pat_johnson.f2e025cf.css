@@ -2361,9 +2361,9 @@ footer {
        text-align: center;
     }
 
-    #Websites .row .span-1-of-3 {
-      width: 31%;
-      margin-right: 10px;
+    #Websites .row .span-1-of-4 {
+      width: 45%;
+      margin-left: 2.5%;
       margin-bottom: 10px;
     } 
 
@@ -2384,7 +2384,7 @@ footer {
 @media only screen and (max-width: 480px) {
     section { padding: 25px 0; }
     #profile > div:nth-child(2) > div:nth-child(2) { width: 35%}
-    #Websites .row .span-1-of-3 {
+    #Websites .row .span-1-of-4 {
       width: 100%;
       margin-bottom: 15px;
     } 
