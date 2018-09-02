@@ -1962,6 +1962,16 @@ span.location {
   text-align: left;
 }
 
+.skills-box ul { padding-left:20px; list-style:none; }
+.skills-box li { margin-bottom:10px; }
+
+.skills-box li:before {    
+  font-family: 'Ionicons';
+  content: '\f3fd';
+  margin: 0 10px 0 -15px;
+  color: var(--main-accent-1);
+}
+
 .image_container {
   position: relative;
 }

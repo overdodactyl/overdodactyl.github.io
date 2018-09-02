@@ -98,7 +98,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   // Override the current require with this new one
   return newRequire;
-})({119:[function(require,module,exports) {
+})({118:[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -128,7 +128,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],97:[function(require,module,exports) {
+},{}],94:[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -159,61 +159,61 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":119}],83:[function(require,module,exports) {
+},{"./bundle-url":118}],81:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":97}],84:[function(require,module,exports) {
+},{"_css_loader":94}],82:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":97}],85:[function(require,module,exports) {
+},{"_css_loader":94}],83:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"./../fonts/ionicons.eot":114,"./../fonts/ionicons.woff":115,"./../fonts/ionicons.ttf":116,"./../fonts/ionicons.svg":117,"_css_loader":97}],91:[function(require,module,exports) {
+},{"./../fonts/ionicons.eot":99,"./../fonts/ionicons.woff":98,"./../fonts/ionicons.ttf":100,"./../fonts/ionicons.svg":101,"_css_loader":94}],91:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":97}],86:[function(require,module,exports) {
+},{"_css_loader":94}],84:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":97}],87:[function(require,module,exports) {
+},{"_css_loader":94}],85:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"./../fonts/open-sans/Regular/OpenSans-Regular.eot":98,"./../fonts/open-sans/Regular/OpenSans-Regular.woff2":99,"./../fonts/open-sans/Regular/OpenSans-Regular.woff":100,"./../fonts/open-sans/Regular/OpenSans-Regular.ttf":101,"./../fonts/open-sans/Regular/OpenSans-Regular.svg":102,"./../fonts/open-sans/Italic/OpenSans-Italic.eot":103,"./../fonts/open-sans/Italic/OpenSans-Italic.woff2":104,"./../fonts/open-sans/Italic/OpenSans-Italic.woff":105,"./../fonts/open-sans/Italic/OpenSans-Italic.ttf":106,"./../fonts/open-sans/Italic/OpenSans-Italic.svg":107,"./../fonts/open-sans/Semibold/OpenSans-Semibold.eot":108,"./../fonts/open-sans/Semibold/OpenSans-Semibold.woff2":109,"./../fonts/open-sans/Semibold/OpenSans-Semibold.woff":110,"./../fonts/open-sans/Semibold/OpenSans-Semibold.ttf":111,"./../fonts/open-sans/Semibold/OpenSans-Semibold.svg":112,"_css_loader":97}],88:[function(require,module,exports) {
+},{"./../fonts/open-sans/Regular/OpenSans-Regular.eot":102,"./../fonts/open-sans/Regular/OpenSans-Regular.woff2":103,"./../fonts/open-sans/Regular/OpenSans-Regular.woff":104,"./../fonts/open-sans/Regular/OpenSans-Regular.ttf":106,"./../fonts/open-sans/Regular/OpenSans-Regular.svg":105,"./../fonts/open-sans/Italic/OpenSans-Italic.eot":108,"./../fonts/open-sans/Italic/OpenSans-Italic.woff2":107,"./../fonts/open-sans/Italic/OpenSans-Italic.woff":109,"./../fonts/open-sans/Italic/OpenSans-Italic.ttf":112,"./../fonts/open-sans/Italic/OpenSans-Italic.svg":110,"./../fonts/open-sans/Semibold/OpenSans-Semibold.eot":111,"./../fonts/open-sans/Semibold/OpenSans-Semibold.woff2":113,"./../fonts/open-sans/Semibold/OpenSans-Semibold.woff":114,"./../fonts/open-sans/Semibold/OpenSans-Semibold.ttf":115,"./../fonts/open-sans/Semibold/OpenSans-Semibold.svg":116,"_css_loader":94}],88:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"./img/mCherry-min.jpg":113,"_css_loader":97}],89:[function(require,module,exports) {
+},{"./img/mCherry-min.jpg":117,"_css_loader":94}],89:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":97}],42:[function(require,module,exports) {
+},{"_css_loader":94}],42:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"./vendors/css/animate.css":83,"./vendors/css/grid.css":84,"./vendors/css/ionicons.css":85,"./node_modules/magnific-popup/dist/magnific-popup.css":91,"./vendors/css/normalize.css":86,"./vendors/css/open-sans.css":87,"./resources/css/style":88,"./resources/css/queries":89,"_css_loader":97}],120:[function(require,module,exports) {
+},{"./vendors/css/animate.css":81,"./vendors/css/grid.css":82,"./vendors/css/ionicons.css":83,"./node_modules/magnific-popup/dist/magnific-popup.css":91,"./vendors/css/normalize.css":84,"./vendors/css/open-sans.css":85,"./resources/css/style":88,"./resources/css/queries":89,"_css_loader":94}],120:[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -242,7 +242,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '51620' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '52490' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -464,6 +464,6 @@ LazyPromise.prototype.catch = function (onError) {
   if (this.promise === null) this.promise = new Promise(this.executor);
   return this.promise.catch(onError);
 };
-},{"./bundle-url":119}],0:[function(require,module,exports) {
-var b=require(122);b.load([["ionicons.fd84f5eb.eot",114],["ionicons.b38bac20.woff",115],["ionicons.e5fc5cca.ttf",116],["ionicons.46851ecf.svg",117],["OpenSans-Regular.51c48a6f.eot",98],["OpenSans-Regular.7f301bac.woff2",99],["OpenSans-Regular.70345714.woff",100],["OpenSans-Regular.b1f28277.ttf",101],["OpenSans-Regular.d839814a.svg",102],["OpenSans-Italic.570eecc9.eot",103],["OpenSans-Italic.6fcc0def.woff2",104],["OpenSans-Italic.78930918.woff",105],["OpenSans-Italic.152d0115.ttf",106],["OpenSans-Italic.ec553f7f.svg",107],["OpenSans-Semibold.4abbdd15.eot",108],["OpenSans-Semibold.6923e3ff.woff2",109],["OpenSans-Semibold.949abbaf.woff",110],["OpenSans-Semibold.4578e8d8.ttf",111],["OpenSans-Semibold.b71b5120.svg",112],["mCherry-min.781a4153.jpg",113]]);
+},{"./bundle-url":118}],0:[function(require,module,exports) {
+var b=require(122);b.load([["ionicons.fd84f5eb.eot",99],["ionicons.b38bac20.woff",98],["ionicons.e5fc5cca.ttf",100],["ionicons.46851ecf.svg",101],["OpenSans-Regular.51c48a6f.eot",102],["OpenSans-Regular.7f301bac.woff2",103],["OpenSans-Regular.70345714.woff",104],["OpenSans-Regular.b1f28277.ttf",106],["OpenSans-Regular.d839814a.svg",105],["OpenSans-Italic.570eecc9.eot",108],["OpenSans-Italic.6fcc0def.woff2",107],["OpenSans-Italic.78930918.woff",109],["OpenSans-Italic.152d0115.ttf",112],["OpenSans-Italic.ec553f7f.svg",110],["OpenSans-Semibold.4abbdd15.eot",111],["OpenSans-Semibold.6923e3ff.woff2",113],["OpenSans-Semibold.949abbaf.woff",114],["OpenSans-Semibold.4578e8d8.ttf",115],["OpenSans-Semibold.b71b5120.svg",116],["mCherry-min.781a4153.jpg",117]]);
 },{}]},{},[120,0], null)

@@ -98,7 +98,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   // Override the current require with this new one
   return newRequire;
-})({118:[function(require,module,exports) {
+})({119:[function(require,module,exports) {
 
 // shim for using process in browser
 var process = module.exports = {};
@@ -285,7 +285,7 @@ process.chdir = function (dir) {
 process.umask = function () {
     return 0;
 };
-},{}],92:[function(require,module,exports) {
+},{}],96:[function(require,module,exports) {
 var global = arguments[3];
 var process = require("process");
 var define;
@@ -10654,7 +10654,7 @@ if ( !noGlobal ) {
 return jQuery;
 } );
 
-},{"process":118}],96:[function(require,module,exports) {
+},{"process":119}],97:[function(require,module,exports) {
 /*!
 Waypoints - 4.0.1
 Copyright © 2011-2016 Caleb Troughton
@@ -11317,7 +11317,7 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
   }
 }())
 ;
-},{}],95:[function(require,module,exports) {
+},{}],92:[function(require,module,exports) {
 (function(window, factory) {
 	var lazySizes = factory(window, window.document);
 	window.lazySizes = lazySizes;
@@ -13811,7 +13811,7 @@ var define;
 	/*>>retina*/
 	_checkInstance();
 });
-},{"jquery":92}],94:[function(require,module,exports) {
+},{"jquery":96}],95:[function(require,module,exports) {
 /**
 * @preserve HTML5 Shiv 3.7.3 | @afarkas @jdalton @jon_neal @rem | MIT/GPL2 Licensed
 */
@@ -14342,7 +14342,7 @@ require('lazysizes');
 require('magnific-popup');
 require('html5shiv');
 require('./resources/js/script');
-},{"jquery":92,"waypoints/lib/jquery.waypoints":96,"lazysizes":95,"magnific-popup":93,"html5shiv":94,"./resources/js/script":90}],120:[function(require,module,exports) {
+},{"jquery":96,"waypoints/lib/jquery.waypoints":97,"lazysizes":92,"magnific-popup":93,"html5shiv":95,"./resources/js/script":90}],120:[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -14371,7 +14371,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '51620' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '52490' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
