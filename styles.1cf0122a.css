@@ -1736,7 +1736,10 @@ footer {
     width: 100%;
     padding: 0 2%; }
   .row {
-    padding: 0 2%; } }
+    padding: 0 2%; }
+    .row.header {
+      max-width: 100% !important;
+      padding: 0 4%; } }
 
 @media only screen and (max-width: 1024px) {
   header {
@@ -1770,6 +1773,12 @@ footer {
 
 @media only screen and (max-width: 870px) {
   .main-nav {
+    display: none; }
+  .mobile-nav-icon {
+    display: inline-block;
+    position: relative;
+    z-index: 9999; }
+  .main-nav {
     float: none;
     position: absolute;
     z-index: 8888;
@@ -1780,34 +1789,28 @@ footer {
     background-color: rgba(0, 0, 0, 0.9);
     text-align: center;
     padding: 10px 0; }
-  .main-nav li {
-    display: block;
-    margin-left: 0;
-    font-size: 110%; }
-  .main-nav li a:link,
-  .main-nav li a:visited {
-    display: block;
-    border: 0;
-    padding: 10px 0;
-    font-size: 100%; }
+    .main-nav li {
+      display: block;
+      margin-left: 0;
+      font-size: 110%; }
+      .main-nav li a:link, .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%; }
   .sticky .main-nav {
     margin-top: 0; }
-  .sticky .main-nav li a:link,
-  .sticky .main-nav li a:visited {
+  .sticky .row.header {
+    max-width: 100% !important; }
+  .sticky .main-nav li a:link, .sticky .main-nav li a:visited {
     padding: 10px 0;
     color: #fff; }
   .sticky .mobile-nav-icon {
     margin-top: 10px; }
-  .sticky .mobile-nav-icon i {
-    color: #555; }
-  .sticky .mobile-nav-icon i.ion-close-round {
-    color: #fff; }
-  .main-nav {
-    display: none; }
-  .mobile-nav-icon {
-    display: inline-block;
-    position: relative;
-    z-index: 9999; } }
+    .sticky .mobile-nav-icon i {
+      color: #555; }
+      .sticky .mobile-nav-icon i.ion-close-round {
+        color: #fff; } }
 
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 767px) {
@@ -1850,13 +1853,13 @@ footer {
   h1 {
     font-size: 180%;
     margin-bottom: 10px; }
+    h1:after {
+      margin-top: 10px;
+      width: 150px; }
   h2 {
     font-size: 150%; }
   h3 {
     font-size: 120% !important; }
-  h1:after {
-    margin-top: 10px;
-    width: 150px; }
   .long-copy {
     width: 100%;
     margin-left: 0%; }
@@ -1864,9 +1867,9 @@ footer {
     width: 40%; }
   .section-presentations .span-1-of-3 {
     text-align: left; }
-  .section-presentations .span-1-of-3 img {
-    height: 200px;
-    width: auto; }
+    .section-presentations .span-1-of-3 img {
+      height: 200px;
+      width: auto; }
   .popup-gallery-inverts {
     text-align: center; }
   #Websites .row .span-1-of-4 {
@@ -1875,8 +1878,8 @@ footer {
     margin-bottom: 10px; }
   footer .row .span-1-of-2 {
     text-align: center; }
-  footer .row .span-1-of-2 ul {
-    float: none; } }
+    footer .row .span-1-of-2 ul {
+      float: none; } }
 
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {

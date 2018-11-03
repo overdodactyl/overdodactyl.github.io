@@ -98,7 +98,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   // Override the current require with this new one
   return newRequire;
-})({81:[function(require,module,exports) {
+})({80:[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -128,7 +128,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],80:[function(require,module,exports) {
+},{}],77:[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -159,55 +159,55 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":81}],51:[function(require,module,exports) {
+},{"./bundle-url":80}],43:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":80}],52:[function(require,module,exports) {
+},{"_css_loader":77}],44:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":80}],53:[function(require,module,exports) {
+},{"_css_loader":77}],45:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":80}],54:[function(require,module,exports) {
+},{"_css_loader":77}],46:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"./../fonts/ionicons.eot":[["ionicons.fd84f5eb.eot",61],61],"./../fonts/ionicons.woff":[["ionicons.b38bac20.woff",62],62],"./../fonts/ionicons.ttf":[["ionicons.e5fc5cca.ttf",63],63],"./../fonts/ionicons.svg":[["ionicons.46851ecf.svg",64],64],"_css_loader":80}],55:[function(require,module,exports) {
+},{"./../fonts/ionicons.eot":[["ionicons.fd84f5eb.eot",58],58],"./../fonts/ionicons.woff":[["ionicons.b38bac20.woff",59],59],"./../fonts/ionicons.ttf":[["ionicons.e5fc5cca.ttf",60],60],"./../fonts/ionicons.svg":[["ionicons.46851ecf.svg",61],61],"_css_loader":77}],56:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":80}],56:[function(require,module,exports) {
+},{"_css_loader":77}],47:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"./../fonts/open-sans/Regular/OpenSans-Regular.eot":[["OpenSans-Regular.51c48a6f.eot",65],65],"./../fonts/open-sans/Regular/OpenSans-Regular.woff2":[["OpenSans-Regular.7f301bac.woff2",66],66],"./../fonts/open-sans/Regular/OpenSans-Regular.woff":[["OpenSans-Regular.70345714.woff",67],67],"./../fonts/open-sans/Regular/OpenSans-Regular.ttf":[["OpenSans-Regular.b1f28277.ttf",68],68],"./../fonts/open-sans/Regular/OpenSans-Regular.svg":[["OpenSans-Regular.d839814a.svg",69],69],"./../fonts/open-sans/Italic/OpenSans-Italic.eot":[["OpenSans-Italic.570eecc9.eot",70],70],"./../fonts/open-sans/Italic/OpenSans-Italic.woff2":[["OpenSans-Italic.6fcc0def.woff2",71],71],"./../fonts/open-sans/Italic/OpenSans-Italic.woff":[["OpenSans-Italic.78930918.woff",72],72],"./../fonts/open-sans/Italic/OpenSans-Italic.ttf":[["OpenSans-Italic.152d0115.ttf",73],73],"./../fonts/open-sans/Italic/OpenSans-Italic.svg":[["OpenSans-Italic.ec553f7f.svg",74],74],"./../fonts/open-sans/Semibold/OpenSans-Semibold.eot":[["OpenSans-Semibold.4abbdd15.eot",75],75],"./../fonts/open-sans/Semibold/OpenSans-Semibold.woff2":[["OpenSans-Semibold.6923e3ff.woff2",76],76],"./../fonts/open-sans/Semibold/OpenSans-Semibold.woff":[["OpenSans-Semibold.949abbaf.woff",77],77],"./../fonts/open-sans/Semibold/OpenSans-Semibold.ttf":[["OpenSans-Semibold.4578e8d8.ttf",78],78],"./../fonts/open-sans/Semibold/OpenSans-Semibold.svg":[["OpenSans-Semibold.b71b5120.svg",79],79],"_css_loader":80}],57:[function(require,module,exports) {
+},{"./../fonts/open-sans/Regular/OpenSans-Regular.eot":[["OpenSans-Regular.51c48a6f.eot",62],62],"./../fonts/open-sans/Regular/OpenSans-Regular.woff2":[["OpenSans-Regular.7f301bac.woff2",63],63],"./../fonts/open-sans/Regular/OpenSans-Regular.woff":[["OpenSans-Regular.70345714.woff",64],64],"./../fonts/open-sans/Regular/OpenSans-Regular.ttf":[["OpenSans-Regular.b1f28277.ttf",65],65],"./../fonts/open-sans/Regular/OpenSans-Regular.svg":[["OpenSans-Regular.d839814a.svg",66],66],"./../fonts/open-sans/Italic/OpenSans-Italic.eot":[["OpenSans-Italic.570eecc9.eot",67],67],"./../fonts/open-sans/Italic/OpenSans-Italic.woff2":[["OpenSans-Italic.6fcc0def.woff2",68],68],"./../fonts/open-sans/Italic/OpenSans-Italic.woff":[["OpenSans-Italic.78930918.woff",69],69],"./../fonts/open-sans/Italic/OpenSans-Italic.ttf":[["OpenSans-Italic.152d0115.ttf",70],70],"./../fonts/open-sans/Italic/OpenSans-Italic.svg":[["OpenSans-Italic.ec553f7f.svg",71],71],"./../fonts/open-sans/Semibold/OpenSans-Semibold.eot":[["OpenSans-Semibold.4abbdd15.eot",72],72],"./../fonts/open-sans/Semibold/OpenSans-Semibold.woff2":[["OpenSans-Semibold.6923e3ff.woff2",73],73],"./../fonts/open-sans/Semibold/OpenSans-Semibold.woff":[["OpenSans-Semibold.949abbaf.woff",74],74],"./../fonts/open-sans/Semibold/OpenSans-Semibold.ttf":[["OpenSans-Semibold.4578e8d8.ttf",75],75],"./../fonts/open-sans/Semibold/OpenSans-Semibold.svg":[["OpenSans-Semibold.b71b5120.svg",76],76],"_css_loader":77}],48:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":80}],58:[function(require,module,exports) {
+},{"_css_loader":77}],49:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":80}],3:[function(require,module,exports) {
+},{"_css_loader":77}],3:[function(require,module,exports) {
 'use strict';
 
 require('./vendors/css/normalize.scss');
@@ -225,7 +225,7 @@ require('./vendors/css/open-sans.scss');
 require('./resources/scss/style.scss');
 
 require('./resources/scss/queries.scss');
-},{"./vendors/css/normalize.scss":51,"./vendors/css/grid.scss":52,"./vendors/css/animate.scss":53,"./vendors/css/ionicons.scss":54,"./node_modules/magnific-popup/src/css/main.scss":55,"./vendors/css/open-sans.scss":56,"./resources/scss/style.scss":57,"./resources/scss/queries.scss":58}],84:[function(require,module,exports) {
+},{"./vendors/css/normalize.scss":43,"./vendors/css/grid.scss":44,"./vendors/css/animate.scss":45,"./vendors/css/ionicons.scss":46,"./node_modules/magnific-popup/src/css/main.scss":56,"./vendors/css/open-sans.scss":47,"./resources/scss/style.scss":48,"./resources/scss/queries.scss":49}],88:[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -254,7 +254,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '63588' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '64069' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -395,5 +395,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},[84,3], null)
+},{}]},{},[88,3], null)
 //# sourceMappingURL=/styles.1cf0122a.map
